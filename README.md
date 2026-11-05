@@ -8,8 +8,10 @@ Corresponding author: Ernesto David Cancho-Rodriguez, Universidad Nacional Mayor
 
 | File | Description |
 |---|---|
-| `26_09_03_v7_1D_CNN__FIS_ML_Notebook_Unificado.ipynb` | **Main notebook (v7.0).** Performs the complete analysis of the revised manuscript. It is saved with the outputs of the reported run. |
-| `26_09_03_v2_figuras_en_ingles.ipynb` | **Figure notebook (v2).** Redraws the figures of the manuscript with English labels from the files of the reported run, without retraining any model. |
+| `FIS_ML_Unified_Notebook_v7.ipynb` | **Main notebook (v7.0).** Performs the complete analysis of the revised manuscript. It is saved without outputs; the results of the reported run are in `DATA/results_v6_20260903_19h_54m_23s.json`. |
+| `FIS_ML_Unified_Notebook_v7.py` | Plain-text export of the main notebook, for reading and code review. |
+| `FIS_ML_Figures_Notebook_v2.ipynb` | **Figure notebook (v2).** Redraws the figures of the manuscript with English labels from the files of the reported run, without retraining any model. It is saved with its outputs and the 13 figures. |
+| `FIS_ML_Figures_Notebook_v2.py` | Plain-text export of the figure notebook. |
 | `DATA/results_v6_20260903_19h_54m_23s.json` | Results file of the reported run (see below). |
 | `DATA/DS_DGSF_DESCARGAS_anonimizado.csv` | Fish landing records (PRODUCE open data). |
 | `DATA/EXALMAR_EXALMC1_LM_OHLC_diario.csv`, `DATA/AUSTRAL_AUSTRAC1_LM_OHLC_diario.csv` | Daily prices of the two listed fishing companies (used by the liquidity diagnosis). |
@@ -17,10 +19,12 @@ Corresponding author: Ernesto David Cancho-Rodriguez, Universidad Nacional Mayor
 | `README.md` | This file. |
 
 Open in Google Colab:
-- Main notebook: [repository copy](https://colab.research.google.com/github/mbaernestocr-tech/FIS-ML-Anchovy-Production-Classifier-Peru/blob/main/26_09_03_v7_1D_CNN__FIS_ML_Notebook_Unificado.ipynb) · [shared Colab link](https://colab.research.google.com/drive/1w0byN8W5Fl0SJR2P8iRjJRBg9rpvit5t?usp=sharing)
-- Figure notebook: [repository copy](https://colab.research.google.com/github/mbaernestocr-tech/FIS-ML-Anchovy-Production-Classifier-Peru/blob/main/26_09_03_v2_figuras_en_ingles.ipynb) · [shared Drive link](https://drive.google.com/file/d/1QWE0x4U0ucRQKL5AHIhO9Dv02C0guMfH/view?usp=sharing)
+- Main notebook: [FIS_ML_Unified_Notebook_v7.ipynb](https://colab.research.google.com/github/mbaernestocr-tech/FIS-ML-Anchovy-Production-Classifier-Peru/blob/main/FIS_ML_Unified_Notebook_v7.ipynb)
+- Figure notebook: [FIS_ML_Figures_Notebook_v2.ipynb](https://colab.research.google.com/github/mbaernestocr-tech/FIS-ML-Anchovy-Production-Classifier-Peru/blob/main/FIS_ML_Figures_Notebook_v2.ipynb)
 
-Note on language: the comments and explanatory text inside the main notebook are largely written in Spanish (the working language of the authors). The tables and figures of the manuscript are in English, and the figure notebook regenerates the figures with English labels.
+Archived versions of this repository are available at Zenodo: https://doi.org/10.5281/zenodo.23978816
+
+Note on language: the comments and explanatory text of the notebooks are written in English. Some messages printed by the code and some column labels are in Spanish (the working language of the authors).
 
 ## Reported run
 
